@@ -9,6 +9,7 @@ public:
             j=i;
             break;
         }
+         if (j==-1) return;
         for(int i=j+1;i<n;i++)
         {
             if (nums[i]!=0)
